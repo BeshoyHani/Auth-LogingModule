@@ -11,6 +11,8 @@ import { connect as connectToDB } from './DB/Connect';
 import authRouter from './routes/authRoute';
 import mongoose from 'mongoose';
 import passport from 'passport';
+import morganMiddleware from './middlewares/morganMiddleware';
+import globalErrorHandler from './Controllers/errorController';
 
 
 const app = express();
@@ -33,17 +35,20 @@ app.use(compression({
 }));
 app.use(cookieParser());
 app.use(express.json());
+app.use(morganMiddleware);
 app.use('/auth', authRouter);
 app.get('/', passport.authenticate('jwt', { session: false }), (req, res, next) => {
     res.json({
         message: 'You made it to the secure route',
         user: req.user
     })
-})
+});
+
+app.use(globalErrorHandler);
 
 const server = http.createServer(app);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 server.listen(PORT, () => {
     mongoose.connect(process.env.DB_URL).then(() => {

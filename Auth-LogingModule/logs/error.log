@@ -1,0 +1,135 @@
+2023-07-01 21:14:18:1418 [31merror[39m: [31mInvalid login: 535-5.7.8 Username and Password not accepted. Learn more at[39m
+[31m535 5.7.8  https://support.google.com/mail/?p=BadCredentials c23-20020a05600c0ad700b003fbc9371193sm4397934wmr.13 - gsmtp[39m
+2023-07-01 21:21:28:2128 [31merror[39m: [31mCouldn't send email[39m
+2023-07-01 21:54:34:5434 [31merror[39m: [31mCouldn't send email[39m
+2023-07-01 21:55:43:5543 [31merror[39m: [31mCouldn't send email[39m
+2023-07-01 21:57:02:572 [31merror[39m: [31mCouldn't send email[39m
+2023-07-01 21:59:02:592 [31merror[39m: [31mCouldn't send email[39m
+2023-07-01 22:02:43:243 [31merror[39m: [31mCouldn't send email[39m
+2023-07-01 22:05:27:527 [31merror[39m: [31mCouldn't send email[39m
+2023-07-01 22:20:30:2030 [31merror[39m: [31mCouldn't send email[39m
+2023-07-01 22:26:44:2644 [31merror[39m: [31mCouldn't send email[39m
+2023-07-02 00:08:45:845 [31merror[39m: [31mInvalid or expired password reset token[39m
+2023-07-02 00:08:45:845 [31merror[39m: [31mCannot read properties of null (reading 'email')[39m
+2023-07-02 13:10:52:1052 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:11:28:1128 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:12:00:120 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:12:02:122 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:12:37:1237 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:15:22:1522 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:17:59:1759 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:19:25:1925 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:20:17:2017 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:22:21:2221 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:23:00:230 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:24:05:245 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:24:17:2417 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:24:40:2440 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:25:18:2518 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:25:28:2528 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:26:20:2620 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:26:45:2645 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 13:27:09:279 [31merror[39m: [31m"First Name" length must be at least 3 characters long[39m
+2023-07-02 15:05:47:547 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:06:41:641 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:07:31:731 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:12:18:1218 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:12:53:1253 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:13:28:1328 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:13:45:1345 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:14:03:143 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:14:06:146 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:14:42:1442 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:14:47:1447 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:15:01:151 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:15:02:152 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:15:34:1534 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:16:18:1618 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:16:19:1619 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:16:31:1631 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:20:48:2048 error: "Email" must be a valid email
+2023-07-02 15:20:48:2048 error: "Email" must be a valid email
+2023-07-02 15:21:55:2155 [31merror[39m: [31m"Email" must be a valid email[39m
+2023-07-02 15:22:33:2233 error: "Email" must be a valid email
+2023-07-02 15:22:52:2252 error: Password must be strong. At least one upper case alphabet. At least one lower case alphabet. At least one digit. At least one special character. Minimum eight in length
+2023-07-02 15:23:30:2330 error: Password must be strong. At least one upper case alphabet. At least one lower case alphabet. At least one digit. At least one special character. Minimum eight in length
+2023-07-02 15:23:37:2337 error: Password must be strong. At least one upper case alphabet. At least one lower case alphabet. At least one digit. At least one special character. Minimum eight in length
+2023-07-02 15:24:11:2411 error: Password must be strong. At least one upper case alphabet. At least one lower case alphabet. At least one digit. At least one special character. Minimum eight in length
+2023-07-02 15:26:11:2611 error: "re_password" is not allowed
+2023-07-02 15:29:06:296 error: user validation failed: first_name: Path `first_name` is required., last_name: Path `last_name` is required.
+2023-07-02 15:29:31:2931 error: user validation failed: first_name: Path `first_name` is required., last_name: Path `last_name` is required.
+2023-07-02 15:30:16:3016 error: user validation failed: first_name: Path `first_name` is required., last_name: Path `last_name` is required.
+2023-07-02 16:12:22:1222 error: Password must be strong. At least one upper case alphabet. At least one lower case alphabet. At least one digit. At least one special character. Minimum eight in length
+2023-07-02 16:45:33:4533 error: User does not exist
+2023-07-02 16:48:37:4837 error: User does not exist
+2023-07-02 16:48:37:4837 error: User does not exist
+2023-07-02 16:49:33:4933 error: User does not exist
+2023-07-02 16:49:33:4933 error: User does not exist
+2023-07-02 16:50:09:509 error: User does not exist
+2023-07-02 16:50:09:509 error: User does not exist
+2023-07-02 16:55:58:5558 error: User does not exist
+2023-07-02 16:55:58:5558 error: User does not exist
+2023-07-02 16:56:03:563 error: User does not exist
+2023-07-02 16:56:03:563 error: User does not exist
+2023-07-02 16:56:06:566 error: User does not exist
+2023-07-02 16:56:06:566 error: User does not exist
+2023-07-02 16:56:25:5625 error: User does not exist
+2023-07-02 16:56:25:5625 error: User does not exist
+2023-07-02 17:13:15:1315 error: Invalid or expired password reset token
+2023-07-02 17:13:15:1315 error: Cannot read properties of null (reading 'email')
+2023-07-02 17:14:49:1449 error: Invalid or expired password reset token
+2023-07-02 17:14:49:1449 error: Invalid or expired password reset token
+2023-07-02 17:14:52:1452 error: Invalid or expired password reset token
+2023-07-02 17:14:52:1452 error: Invalid or expired password reset token
+2023-07-02 17:15:14:1514 error: Invalid or expired password reset token
+2023-07-02 17:15:14:1514 error: Invalid or expired password reset token
+2023-07-02 17:17:37:1737 error: Invalid or expired password reset token
+2023-07-02 17:17:37:1737 error: Invalid or expired password reset token
+2023-07-02 17:18:31:1831 error: Invalid or expired password reset token
+2023-07-02 17:18:31:1831 error: Invalid or expired password reset token
+2023-07-02 17:18:35:1835 error: Invalid or expired password reset token
+2023-07-02 17:18:35:1835 error: Invalid or expired password reset token
+2023-07-02 17:19:05:195 error: Invalid or expired password reset token
+2023-07-02 17:19:05:195 error: Invalid or expired password reset token
+2023-07-03 00:16:26:1626 error: Password must be strong. At least one upper case alphabet. At least one lower case alphabet. At least one digit. At least one special character. Minimum eight in length
+2023-07-03 00:16:43:1643 error: "token" is not allowed
+2023-07-03 09:37:06:376 error: User does not exist
+2023-07-03 09:37:06:376 error: User does not exist
+2023-07-03 09:37:34:3734 error: Password must be strong. At least one upper case alphabet. At least one lower case alphabet. At least one digit. At least one special character. Minimum eight in length
+2023-07-03 09:37:55:3755 error: "token" is not allowed
+2023-07-03 09:38:59:3859 error: "token" is not allowed
+2023-07-03 09:41:33:4133 error: Password must be strong. At least one upper case alphabet. At least one lower case alphabet. At least one digit. At least one special character. Minimum eight in length
+2023-07-03 09:41:52:4152 error: "token" is not allowed
+2023-07-03 09:47:25:4725 error: "token" is not allowed
+2023-07-03 11:08:49:849 error: "Email" must be a valid email
+2023-07-03 11:09:07:97 error: "Email" must be a valid email
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:15:09:159 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:16:30:1630 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:16:30:1630 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:16:30:1630 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:16:30:1630 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 11:16:30:1630 error: E11000 duplicate key error collection: Fixed-authDB.users index: email_1 dup key: { email: "{$gte:""}" }
+2023-07-03 15:56:30:5630 error: error: TypeError: Cannot read properties of undefined (reading 'catch')
+2023-07-03 15:59:13:5913 error: error: TypeError: Cannot read properties of undefined (reading 'catch')
+2023-07-03 15:59:35:5935 error: error: Error: User not found
+2023-07-03 16:03:40:340 error: error: TypeError: Cannot read properties of undefined (reading 'catch')
+2023-07-03 16:05:04:54 error: error: Error: User not found
+2023-07-03 16:07:28:728 error: error: Error: User not found
+2023-07-03 16:10:57:1057 error: error: TypeError: Cannot read properties of undefined (reading 'catch')
+2023-07-03 16:10:57:1057 error: Cannot set headers after they are sent to the client
