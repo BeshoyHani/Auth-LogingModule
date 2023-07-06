@@ -30,42 +30,68 @@ export const login = (req: Request, res: Response) => {
 
             });
         } else {
-
-            const { _id, email, first_name, last_name } = user;
-            const body = {
-                id: _id,
-                email,
-                first_name,
-                last_name
-            };
-            const token = jwt.sign({ user: body }, process.env.JWT_SECRET, { expiresIn: '3h' });
+            const sanitizedUser = createSanitizedUser(user);
+            const token = generateUserToken(sanitizedUser);
             return res.status(200).json({
                 message: 'Logged in Successfully',
-                user: body,
+                user: sanitizedUser,
                 token
             });
         }
     })(req, res);
 }
 
-export const requestResetPassword = async (req: Request, res: Response, next: NextFunction) => {
-        const { email } = req.body;
-        const link = await generateResetPasswordLink(email);
-        const isSent = await sendEmail(email, "Password Reset Request", {}, `<h1>link: ${link}</h1>`);
-        if (!isSent)
-            throw new Error('Couldn\'t send email');
+export const isLoggedIn = (req: Request, res: Response) => {
+    console.log(req.isAuthenticated())
+    if (req.isAuthenticated()) {
+        const sanitizedUser = createSanitizedUser(req.user);
+        const token = generateUserToken(sanitizedUser);
         res.status(200).json({
-            message: 'Reset Password Link is Sent Successfully'
-        });
+            message: 'user is authenticated',
+            success: true,
+            user: sanitizedUser,
+            token: token
+        })
+    } else {
+        res.status(200).json({
+            message: 'user is not authenticated',
+            success: false
+        })
+    }
+}
+
+export const requestResetPassword = async (req: Request, res: Response, next: NextFunction) => {
+    const { email } = req.body;
+    const link = await generateResetPasswordLink(email);
+    const isSent = await sendEmail(email, "Password Reset Request", {}, `<h1>link: ${link}</h1>`);
+    if (!isSent)
+        throw new Error('Couldn\'t send email');
+    res.status(200).json({
+        message: 'Reset Password Link is Sent Successfully'
+    });
 }
 
 export const resetPasswordController = async (req: Request, res: Response, next: NextFunction) => {
-        const { userId, token, password } = req.body;
-        const user = await resetPassword(userId, token, password);
-        const isSent = await sendEmail(user.email, "Password Reset Request", {}, ` <p>Your password has been changed successfully</p>`);
-        if (!isSent)
-            throw new Error('Couldn\'t send email');
-        res.status(200).json({
-            message: 'Password was reset Successfully'
-        });
+    const { userId, token, password } = req.body;
+    const user = await resetPassword(userId, token, password);
+    const isSent = await sendEmail(user.email, "Password Reset Request", {}, ` <p>Your password has been changed successfully</p>`);
+    if (!isSent)
+        throw new Error('Couldn\'t send email');
+    res.status(200).json({
+        message: 'Password was reset Successfully'
+    });
+}
+
+const createSanitizedUser = (data) => {
+    const { _id, email, first_name, last_name } = data;
+    return {
+        id: _id,
+        email,
+        first_name,
+        last_name
+    };
+}
+
+const generateUserToken = (data) => {
+    return jwt.sign({ user: data }, process.env.JWT_SECRET, { expiresIn: '3h' });
 }

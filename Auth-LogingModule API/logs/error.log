@@ -133,3 +133,149 @@
 2023-07-03 16:07:28:728 error: error: Error: User not found
 2023-07-03 16:10:57:1057 error: error: TypeError: Cannot read properties of undefined (reading 'catch')
 2023-07-03 16:10:57:1057 error: Cannot set headers after they are sent to the client
+2023-07-05 17:23:23:2323 error: "Email" must be a valid email
+2023-07-05 17:23:23:2323 error: error: ValidationError: "Email" must be a valid email
+2023-07-05 23:45:35:4535 error: error: Error: Unknown authentication strategy "github"
+2023-07-05 23:45:43:4543 error: error: Error: Unknown authentication strategy "github"
+2023-07-06 00:29:15:2915 error: error: Error: getaddrinfo EAI_AGAIN github.com
+2023-07-06 10:32:43:3243 error: error: ValidationError: password: Path `password` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required., email: Path `email` is required.
+2023-07-06 10:35:21:3521 error: error: Error: Failed to obtain access token
+2023-07-06 10:35:59:3559 error: error: Error: Failed to obtain access token
+2023-07-06 10:36:31:3631 error: error: Error: Failed to obtain access token
+2023-07-06 10:37:42:3742 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:39:18:3918 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:40:54:4054 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:40:59:4059 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:41:04:414 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:41:44:4144 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:44:29:4429 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:45:55:4555 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware? 
+error stack: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/strategies/session.js:46:41)
+    at attempt (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:280:10)
+    at compression (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+2023-07-06 10:45:56:4556 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware? 
+error stack: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/strategies/session.js:46:41)
+    at attempt (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:280:10)
+    at compression (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+2023-07-06 10:45:56:4556 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware? 
+error stack: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/strategies/session.js:46:41)
+    at attempt (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:280:10)
+    at compression (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+2023-07-06 10:47:16:4716 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware? 
+error stack: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/strategies/session.js:46:41)
+    at attempt (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:280:10)
+    at compression (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+2023-07-06 10:49:06:496 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware? 
+error stack: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/strategies/session.js:46:41)
+    at attempt (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:280:10)
+    at compression (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+2023-07-06 10:52:42:5242 error: error: Error: secret option required for sessions 
+error stack: Error: secret option required for sessions
+    at session (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express-session/index.js:200:12)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:280:10)
+    at compression (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+2023-07-06 12:27:03:273 error: error: Error: Failed to obtain access token 
+error stack: Error: Failed to obtain access token
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport-oauth2/lib/strategy.js:178:49
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-07-06 12:27:10:2710 error: error: Error: Failed to obtain access token 
+error stack: Error: Failed to obtain access token
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport-oauth2/lib/strategy.js:178:49
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-07-06 12:27:58:2758 error: error: Error: Failed to obtain access token 
+error stack: Error: Failed to obtain access token
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport-oauth2/lib/strategy.js:178:49
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-07-06 12:28:07:287 error: error: Error: Failed to obtain access token 
+error stack: Error: Failed to obtain access token
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport-oauth2/lib/strategy.js:178:49
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-07-06 14:03:43:343 error: error: ValidationError: last_name: Path `last_name` is required. 
+error stack: ValidationError: user validation failed: last_name: Path `last_name` is required.
+    at model.Document.invalidate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/document.js:3147:32)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/document.js:2940:17
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/schematype.js:1352:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-07-06 14:05:25:525 error: error: ValidationError: last_name: Path `last_name` is required. 
+error stack: ValidationError: user validation failed: last_name: Path `last_name` is required.
+    at model.Document.invalidate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/document.js:3147:32)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/document.js:2940:17
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/schematype.js:1352:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-07-06 14:09:10:910 error: error: ValidationError: last_name: Path `last_name` is required. 
+error stack: ValidationError: user validation failed: last_name: Path `last_name` is required.
+    at model.Document.invalidate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/document.js:3147:32)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/document.js:2940:17
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/schematype.js:1352:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)

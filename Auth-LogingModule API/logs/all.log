@@ -557,3 +557,458 @@
 
 2023-07-03 16:13:13:1313 http: POST /auth/login 400 57 - 16.942 ms
 
+2023-07-05 17:23:23:2323 error: "Email" must be a valid email
+2023-07-05 17:23:23:2323 error: error: ValidationError: "Email" must be a valid email
+2023-07-05 17:23:23:2323 http: POST /auth/login 500 429 - 6.565 ms
+
+2023-07-05 17:24:09:249 http: POST /auth/login 404 150 - 1.664 ms
+
+2023-07-05 17:24:28:2428 http: POST /auth/login 302 0 - 1.440 ms
+
+2023-07-05 23:44:55:4455 http: GET /auth/github 404 150 - 2.774 ms
+
+2023-07-05 23:45:35:4535 error: error: Error: Unknown authentication strategy "github"
+2023-07-05 23:45:35:4535 http: GET /auth/github 500 1783 - 5.649 ms
+
+2023-07-05 23:45:35:4535 http: GET /favicon.ico 404 150 - 1.852 ms
+
+2023-07-05 23:45:43:4543 error: error: Error: Unknown authentication strategy "github"
+2023-07-05 23:45:43:4543 http: GET /auth/github 500 1783 - 2.412 ms
+
+2023-07-05 23:47:41:4741 http: GET /auth/github 302 0 - 2.038 ms
+
+2023-07-06 00:22:56:2256 http: GET /auth/github 302 0 - 2.475 ms
+
+2023-07-06 00:23:00:230 http: GET /auth/github/callback?code=698039350e880c0d4a98 404 159 - 2.888 ms
+
+2023-07-06 00:26:19:2619 http: GET /auth/github/callback?code=698039350e880c0d4a98 404 159 - 3.462 ms
+
+2023-07-06 00:26:20:2620 http: GET /auth/github/callback?code=698039350e880c0d4a98 404 159 - 1.365 ms
+
+2023-07-06 00:26:45:2645 http: GET /auth/github/callback?code=698039350e880c0d4a98 404 159 - 4.930 ms
+
+2023-07-06 00:26:46:2646 http: GET /auth/github/callback?code=698039350e880c0d4a98 404 159 - 2.533 ms
+
+2023-07-06 00:26:47:2647 http: GET /auth/github/callback?code=698039350e880c0d4a98 404 159 - 1.117 ms
+
+2023-07-06 00:26:56:2656 http: GET /auth/github/callback?code=698039350e880c0d4a98 404 159 - 1.067 ms
+
+2023-07-06 00:27:37:2737 http: GET /auth/github/callback?code=698039350e880c0d4a98 404 159 - 0.850 ms
+
+2023-07-06 00:29:15:2915 error: error: Error: getaddrinfo EAI_AGAIN github.com
+2023-07-06 00:29:15:2915 http: GET /auth/github/callback?code=698039350e880c0d4a98 500 1275 - 10066.508 ms
+
+2023-07-06 10:32:39:3239 http: GET /auth/github 302 0 - 4.744 ms
+
+2023-07-06 10:32:43:3243 error: error: ValidationError: password: Path `password` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required., email: Path `email` is required.
+2023-07-06 10:32:43:3243 http: GET /auth/github/callback?code=f1e36eb16ce2dfe75e12 500 2089 - 1251.221 ms
+
+2023-07-06 10:32:43:3243 http: GET /favicon.ico 404 150 - 1.431 ms
+
+2023-07-06 10:35:21:3521 error: error: Error: Failed to obtain access token
+2023-07-06 10:35:21:3521 http: GET /auth/github/callback?code=f1e36eb16ce2dfe75e12 500 991 - 457.709 ms
+
+2023-07-06 10:35:59:3559 error: error: Error: Failed to obtain access token
+2023-07-06 10:35:59:3559 http: GET /auth/github/callback?code=f1e36eb16ce2dfe75e12 500 991 - 509.995 ms
+
+2023-07-06 10:36:31:3631 error: error: Error: Failed to obtain access token
+2023-07-06 10:36:31:3631 http: GET /auth/github/callback?code=f1e36eb16ce2dfe75e12 500 991 - 454.976 ms
+
+2023-07-06 10:37:42:3742 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:37:42:3742 http: GET /auth/github/callback?code=5e00dd29375fdfc23f44 500 1577 - 1119.588 ms
+
+2023-07-06 10:39:18:3918 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:40:54:4054 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:40:59:4059 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:41:04:414 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:41:44:4144 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:44:29:4429 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+2023-07-06 10:45:55:4555 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware? 
+error stack: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/strategies/session.js:46:41)
+    at attempt (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:280:10)
+    at compression (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+2023-07-06 10:45:56:4556 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware? 
+error stack: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/strategies/session.js:46:41)
+    at attempt (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:280:10)
+    at compression (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+2023-07-06 10:45:56:4556 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware? 
+error stack: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/strategies/session.js:46:41)
+    at attempt (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:280:10)
+    at compression (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+2023-07-06 10:47:16:4716 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware? 
+error stack: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/strategies/session.js:46:41)
+    at attempt (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:280:10)
+    at compression (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+2023-07-06 10:49:06:496 error: error: Error: Login sessions require session support. Did you forget to use `express-session` middleware? 
+error stack: Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/strategies/session.js:46:41)
+    at attempt (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:280:10)
+    at compression (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+2023-07-06 10:52:42:5242 error: error: Error: secret option required for sessions 
+error stack: Error: secret option required for sessions
+    at session (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express-session/index.js:200:12)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:280:10)
+    at compression (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:328:13)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/express/lib/router/index.js:286:9
+2023-07-06 10:53:14:5314 http: GET /auth/github 302 0 - 2.157 ms
+
+2023-07-06 10:53:18:5318 http: GET /auth/github/callback?code=c96e8a9d183054318b2f 200 34 - 1032.674 ms
+
+2023-07-06 11:16:20:1620 http: GET /auth/github 302 0 - 1.912 ms
+
+2023-07-06 11:16:22:1622 http: GET /auth/github/callback?code=0525577a8f78a66ea19d 302 86 - 1573.198 ms
+
+2023-07-06 11:18:33:1833 http: GET /auth/github 302 0 - 1.811 ms
+
+2023-07-06 11:18:37:1837 http: GET /auth/github/callback?code=aef0e392b640b45e081c 302 86 - 1859.714 ms
+
+2023-07-06 11:37:12:3712 http: GET /auth/github 302 0 - 2.210 ms
+
+2023-07-06 11:37:14:3714 http: GET /auth/github/callback?code=d3bccd598321b148d016 302 86 - 1296.338 ms
+
+2023-07-06 11:42:55:4255 http: GET /auth/github 302 0 - 2.934 ms
+
+2023-07-06 11:43:00:430 http: GET /auth/github/callback?code=8d6259f46be579756b94 302 86 - 1097.416 ms
+
+2023-07-06 12:21:55:2155 http: GET /auth/github 302 0 - 1.721 ms
+
+2023-07-06 12:21:57:2157 http: GET /auth/github/callback?code=1d4c62d4a5474456ad22 302 86 - 1207.834 ms
+
+2023-07-06 12:22:57:2257 http: GET /auth/github 302 0 - 1.694 ms
+
+2023-07-06 12:22:59:2259 http: GET /auth/github/callback?code=ec7d9b9a06d2d9dd024e 302 86 - 1546.029 ms
+
+2023-07-06 12:25:47:2547 http: GET /auth/github 302 0 - 2.483 ms
+
+2023-07-06 12:25:52:2552 http: GET /auth/github/callback?code=76b2a620e502fa29587e 401 - - 1473.309 ms
+
+2023-07-06 12:27:03:273 error: error: Error: Failed to obtain access token 
+error stack: Error: Failed to obtain access token
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport-oauth2/lib/strategy.js:178:49
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-07-06 12:27:03:273 http: GET /auth/github/callback?code=76b2a620e502fa29587e 500 991 - 536.880 ms
+
+2023-07-06 12:27:10:2710 error: error: Error: Failed to obtain access token 
+error stack: Error: Failed to obtain access token
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport-oauth2/lib/strategy.js:178:49
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-07-06 12:27:10:2710 http: GET /auth/github/callback?code=76b2a620e502fa29587e 500 991 - 437.532 ms
+
+2023-07-06 12:27:23:2723 http: GET /auth/github 302 0 - 0.717 ms
+
+2023-07-06 12:27:29:2729 http: GET /auth/github/callback?code=15df451c08b3f7da1849 401 - - 1662.024 ms
+
+2023-07-06 12:27:58:2758 error: error: Error: Failed to obtain access token 
+error stack: Error: Failed to obtain access token
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport-oauth2/lib/strategy.js:178:49
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-07-06 12:27:58:2758 http: GET /auth/github/callback?code=15df451c08b3f7da1849 500 991 - 607.201 ms
+
+2023-07-06 12:28:07:287 error: error: Error: Failed to obtain access token 
+error stack: Error: Failed to obtain access token
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/passport-oauth2/lib/strategy.js:178:49
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:209:7
+    at passBackControl (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:134:9)
+    at IncomingMessage.<anonymous> (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-07-06 12:28:07:287 http: GET /auth/github/callback?code=15df451c08b3f7da1849 500 991 - 465.367 ms
+
+2023-07-06 12:28:12:2812 http: GET /auth/github/callback?code=9cc77639cdecb4ba32e4 302 86 - 1793.783 ms
+
+2023-07-06 13:12:40:1240 http: GET /auth/github 302 0 - 2.003 ms
+
+2023-07-06 13:12:42:1242 http: GET /auth/github/callback?code=e965d41622fa2655e46b 302 86 - 1164.250 ms
+
+2023-07-06 13:17:56:1756 http: GET /auth/github 302 0 - 2.153 ms
+
+2023-07-06 13:17:57:1757 http: GET /auth/github/callback?code=39c5203255b2febe6056 302 86 - 1132.593 ms
+
+2023-07-06 14:03:41:341 http: GET /auth/github 302 0 - 2.353 ms
+
+2023-07-06 14:03:43:343 error: error: ValidationError: last_name: Path `last_name` is required. 
+error stack: ValidationError: user validation failed: last_name: Path `last_name` is required.
+    at model.Document.invalidate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/document.js:3147:32)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/document.js:2940:17
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/schematype.js:1352:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-07-06 14:03:43:343 http: GET /auth/github/callback?code=0340d54fbafd044f362d 500 1144 - 1242.297 ms
+
+2023-07-06 14:05:24:524 http: GET /auth/github 302 0 - 1.947 ms
+
+2023-07-06 14:05:25:525 error: error: ValidationError: last_name: Path `last_name` is required. 
+error stack: ValidationError: user validation failed: last_name: Path `last_name` is required.
+    at model.Document.invalidate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/document.js:3147:32)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/document.js:2940:17
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/schematype.js:1352:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-07-06 14:05:25:525 http: GET /auth/github/callback?code=e229d79444d5039bfa5c 500 1144 - 1063.131 ms
+
+2023-07-06 14:09:03:93 http: GET /auth/github 302 0 - 2.109 ms
+
+2023-07-06 14:09:10:910 error: error: ValidationError: last_name: Path `last_name` is required. 
+error stack: ValidationError: user validation failed: last_name: Path `last_name` is required.
+    at model.Document.invalidate (/media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/document.js:3147:32)
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/document.js:2940:17
+    at /media/beshoy/896fcdf4-a24a-47c6-83ba-50bdaa65e6d5/work/Auth Task/Auth-LogingModule API/node_modules/mongoose/lib/schematype.js:1352:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-07-06 14:09:10:910 http: GET /auth/github/callback?code=be5b951949aaa622aa33 500 1144 - 1278.005 ms
+
+2023-07-06 14:12:31:1231 http: GET /auth/github 302 0 - 3.030 ms
+
+2023-07-06 14:12:33:1233 http: GET /auth/github/callback?code=76edd7892ed56ee8e9ab 302 86 - 1143.057 ms
+
+2023-07-06 14:15:43:1543 http: GET /auth/github 302 0 - 1.940 ms
+
+2023-07-06 14:15:49:1549 http: GET /auth/github/callback?code=7eb7c964f97f67c4c1a4 302 86 - 1096.589 ms
+
+2023-07-06 14:28:37:2837 http: POST /auth/login 400 57 - 81.298 ms
+
+2023-07-06 14:29:20:2920 http: POST /auth/signup 200 310 - 78.280 ms
+
+2023-07-06 14:29:29:2929 http: POST /auth/login 200 439 - 76.071 ms
+
+2023-07-06 14:37:40:3740 http: GET /auth/github 302 0 - 3.581 ms
+
+2023-07-06 14:37:42:3742 http: GET /auth/github/callback?code=39c59698604a7fa3d0b4 302 86 - 1272.603 ms
+
+2023-07-06 14:42:25:4225 http: GET /auth/login/success 200 167 - 3.795 ms
+
+2023-07-06 14:42:40:4240 http: GET /auth/login/success 200 167 - 1.451 ms
+
+2023-07-06 14:43:08:438 http: GET /auth/login/success 200 167 - 1.235 ms
+
+2023-07-06 14:44:15:4415 http: GET /auth/login/success 200 55 - 0.267 ms
+
+2023-07-06 14:44:42:4442 http: GET /auth/github 302 0 - 0.383 ms
+
+2023-07-06 14:44:44:4444 http: GET /auth/github/callback?code=c001df7459ab874c5d77 302 86 - 1033.812 ms
+
+2023-07-06 14:44:44:4444 http: GET /auth/login/success 304 - - 0.462 ms
+
+2023-07-06 14:45:27:4527 http: GET /auth/login/success 304 - - 3.561 ms
+
+2023-07-06 14:45:42:4542 http: GET /auth/github 302 0 - 2.032 ms
+
+2023-07-06 14:45:44:4544 http: GET /auth/github/callback?code=e2ddacf502c2c85d62ca 302 86 - 1810.742 ms
+
+2023-07-06 14:45:44:4544 http: GET /auth/login/success 304 - - 0.772 ms
+
+2023-07-06 14:47:12:4712 http: GET /auth/github 302 0 - 2.318 ms
+
+2023-07-06 14:47:15:4715 http: GET /auth/github/callback?code=1950fa606cce6e0800b8 302 86 - 1036.146 ms
+
+2023-07-06 14:47:16:4716 http: GET /auth/login/success 304 - - 1.334 ms
+
+2023-07-06 14:49:10:4910 http: GET /auth/login/success 304 - - 0.346 ms
+
+2023-07-06 14:49:19:4919 http: POST /auth/requestPasswordReset 200 54 - 96.719 ms
+
+2023-07-06 14:49:22:4922 info: [object Object]
+2023-07-06 15:01:40:140 http: GET /auth/login/success 304 - - 4.359 ms
+
+2023-07-06 15:02:16:216 http: GET /auth/login/success 304 - - 2.982 ms
+
+2023-07-06 15:02:19:219 http: GET /auth/login/success 304 - - 0.692 ms
+
+2023-07-06 15:04:07:47 http: GET /auth/login/success 304 - - 4.237 ms
+
+2023-07-06 15:04:09:49 http: GET /auth/login/success 304 - - 0.747 ms
+
+2023-07-06 15:04:10:410 http: GET /auth/github 302 0 - 1.581 ms
+
+2023-07-06 15:04:12:412 http: GET /auth/github/callback?code=c5a979518f6431440726 302 86 - 1087.480 ms
+
+2023-07-06 15:04:12:412 http: GET /auth/login/success 304 - - 0.437 ms
+
+2023-07-06 15:08:19:819 http: GET /auth/login/success 304 - - 2.840 ms
+
+2023-07-06 15:09:09:99 http: GET /auth/login/success 304 - - 1.029 ms
+
+2023-07-06 15:09:15:915 http: GET /auth/login/success 304 - - 0.467 ms
+
+2023-07-06 15:09:54:954 http: GET /auth/login/success 304 - - 3.783 ms
+
+2023-07-06 15:10:32:1032 http: GET /auth/login/success 304 - - 0.901 ms
+
+2023-07-06 15:10:35:1035 http: GET /auth/login/success 304 - - 0.483 ms
+
+2023-07-06 15:10:50:1050 http: GET /auth/login/success 304 - - 0.346 ms
+
+2023-07-06 15:12:43:1243 http: GET /auth/login/success 304 - - 3.268 ms
+
+2023-07-06 15:13:40:1340 http: GET /auth/login/success 304 - - 2.731 ms
+
+2023-07-06 15:14:30:1430 http: GET /auth/login/success 304 - - 3.284 ms
+
+2023-07-06 15:14:35:1435 http: GET /auth/github 302 0 - 2.190 ms
+
+2023-07-06 15:14:37:1437 http: GET /auth/github/callback?code=1b7c04b1de1b5c74f44c - - - - ms
+
+2023-07-06 15:14:37:1437 http: GET /auth/github 302 0 - 0.526 ms
+
+2023-07-06 15:14:38:1438 http: GET /auth/github/callback?code=1e3a4ce7ed39dc838c8d 302 86 - 1067.418 ms
+
+2023-07-06 15:14:38:1438 http: GET /auth/login/success 200 167 - 3.761 ms
+
+2023-07-06 15:15:10:1510 http: GET /auth/login/success 200 55 - 2.297 ms
+
+2023-07-06 15:16:52:1652 http: GET /auth/login/success 304 - - 1.187 ms
+
+2023-07-06 15:16:59:1659 http: GET /auth/github 302 0 - 1.796 ms
+
+2023-07-06 15:17:01:171 http: GET /auth/github/callback?code=ea9c550bd6590c56ab08 302 86 - 1014.523 ms
+
+2023-07-06 15:17:02:172 http: GET /auth/login/success 200 167 - 4.456 ms
+
+2023-07-06 15:17:41:1741 http: GET /auth/login/success 200 55 - 3.099 ms
+
+2023-07-06 15:17:43:1743 http: GET /auth/github 302 0 - 1.725 ms
+
+2023-07-06 15:17:45:1745 http: GET /auth/github/callback?code=9564a7ce52f2385403df 302 86 - 1084.600 ms
+
+2023-07-06 15:17:45:1745 http: GET /auth/login/success 200 462 - 3.252 ms
+
+2023-07-06 15:18:38:1838 http: GET /auth/login/success 200 462 - 1.872 ms
+
+2023-07-06 15:18:53:1853 http: GET /auth/login/success 200 462 - 3.589 ms
+
+2023-07-06 15:18:56:1856 http: GET /auth/github 302 0 - 0.449 ms
+
+2023-07-06 15:18:58:1858 http: GET /auth/github/callback?code=b9d2f54f2059b6500b66 302 86 - 1618.314 ms
+
+2023-07-06 15:18:59:1859 http: GET /auth/login/success 200 462 - 1.673 ms
+
+2023-07-06 15:19:47:1947 http: GET /auth/login/success 200 462 - 1.842 ms
+
+2023-07-06 15:19:49:1949 http: GET /auth/github 302 0 - 0.497 ms
+
+2023-07-06 15:19:51:1951 http: GET /auth/github/callback?code=fce7ee9e64247dba78c4 302 86 - 1021.046 ms
+
+2023-07-06 15:19:51:1951 http: GET /auth/login/success 200 462 - 1.672 ms
+
+2023-07-06 15:19:53:1953 http: GET /auth/github 302 0 - 0.729 ms
+
+2023-07-06 15:19:54:1954 http: GET /auth/github/callback?code=2cf1e46e6b118599328f 302 86 - 1084.902 ms
+
+2023-07-06 15:19:55:1955 http: GET /auth/login/success 200 462 - 1.444 ms
+
+2023-07-06 15:20:02:202 http: GET /auth/login/success 200 462 - 1.460 ms
+
+2023-07-06 15:20:03:203 http: GET /auth/github 302 0 - 1.354 ms
+
+2023-07-06 15:20:05:205 http: GET /auth/github/callback?code=0fd8933703273412c7dc 302 86 - 992.874 ms
+
+2023-07-06 15:20:05:205 http: GET /auth/login/success 200 462 - 1.658 ms
+
+2023-07-06 15:20:30:2030 http: GET /auth/login/success 200 462 - 1.094 ms
+
+2023-07-06 15:20:31:2031 http: GET /auth/github 302 0 - 0.375 ms
+
+2023-07-06 15:20:36:2036 http: GET /auth/github/callback?code=bd602fc221b35189916f 302 86 - 1175.183 ms
+
+2023-07-06 15:20:36:2036 http: GET /auth/login/success 200 462 - 1.522 ms
+
+2023-07-06 15:25:15:2515 http: GET /auth/login/success 200 462 - 1.338 ms
+
+2023-07-06 15:25:30:2530 http: GET /auth/login/success 200 55 - 0.395 ms
+
+2023-07-06 15:25:32:2532 http: GET /auth/login/success 304 - - 0.516 ms
+
+2023-07-06 15:25:42:2542 http: GET /auth/login/success 304 - - 0.302 ms
+
+2023-07-06 15:26:16:2616 http: GET /auth/github 302 0 - 0.344 ms
+
+2023-07-06 15:26:19:2619 http: GET /auth/github/callback?code=f9df60e848dc9c850465 302 86 - 1150.005 ms
+
+2023-07-06 15:26:20:2620 http: GET /auth/login/success 200 462 - 1.167 ms
+
+2023-07-06 15:28:17:2817 http: GET /auth/login/success 200 462 - 1.163 ms
+
+2023-07-06 15:28:21:2821 http: GET /auth/github 302 0 - 0.612 ms
+
+2023-07-06 15:28:23:2823 http: GET /auth/github/callback?code=b89b88b1f20f1ae39e38 302 86 - 995.500 ms
+
+2023-07-06 15:28:23:2823 http: GET /auth/login/success 200 462 - 1.372 ms
+
+2023-07-06 15:28:32:2832 http: GET /auth/login/success 200 462 - 1.347 ms
+
+2023-07-06 15:29:23:2923 http: GET /auth/login/success 200 462 - 1.633 ms
+
+2023-07-06 15:32:35:3235 http: GET /auth/login/success 200 462 - 1.707 ms
+
+2023-07-06 15:32:40:3240 http: GET /auth/login/success 200 462 - 1.684 ms
+
+2023-07-06 15:32:41:3241 http: GET /auth/github 302 0 - 0.549 ms
+
+2023-07-06 15:32:42:3242 http: GET /auth/github/callback?code=71ad083545c0b4074fa8 302 86 - 1043.590 ms
+
+2023-07-06 15:32:43:3243 http: GET /auth/login/success 200 462 - 1.258 ms
+
+2023-07-06 15:34:13:3413 http: GET /auth/login/success 200 462 - 1.504 ms
+

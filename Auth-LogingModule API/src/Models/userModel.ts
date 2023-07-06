@@ -8,7 +8,6 @@ const userSchema = new mongoose.Schema({
     },
     last_name: {
         type: String,
-        required: true
     },
     email: {
         type: String,
@@ -25,7 +24,8 @@ const userSchema = new mongoose.Schema({
             const compare = await bcrypt.compare(password, this.password);
             return compare;
         }
-    }
+    },
+    timestamps: true
 });
 
 userSchema.pre(

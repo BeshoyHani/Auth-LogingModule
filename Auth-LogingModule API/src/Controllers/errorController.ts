@@ -11,7 +11,7 @@ const sendErrorDev = (error: AppError, res: Response) => {
         message: error.message,
         stack: error.stack
     });
-    Logger.error(`error: ${error}`);
+    Logger.error(`error: ${error} \nerror stack: ${error.stack}`);
 }
 
 const sendErrorProd = (error: AppError, res: Response) => {
@@ -25,7 +25,7 @@ const sendErrorProd = (error: AppError, res: Response) => {
             status: 'error',
             message: 'Oops! something went wrong',
         });
-        Logger.error(`error: ${error}`);
+        Logger.error(`error: ${error} \nerror stack: ${error.stack}`);
     }
 }
 export default (error: AppError, req: Request, res: Response, next: NextFunction) => {

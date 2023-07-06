@@ -1,17 +1,7 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
-import Avatar from '@mui/material/Avatar';
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import Divider from '@mui/material/Divider';
-import IconButton from '@mui/material/IconButton';
-import Tooltip from '@mui/material/Tooltip';
-import Logout from '@mui/icons-material/Logout';
-import LoginIcon from '@mui/icons-material/Login';
-import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
+import { Box, Menu, MenuItem, ListItemIcon, Divider, IconButton, Tooltip, Badge, Avatar } from '@mui/material';
+import {Logout, Login as LoginIcon, AppRegistration as AppRegistrationIcon} from '@mui/icons-material';
 import { Link } from 'react-router-dom';
-import Badge from '@mui/material/Badge';
 
 export default function AccountMenu({ userType, logout }) {
   const [anchorEl, setAnchorEl] = React.useState(null);
